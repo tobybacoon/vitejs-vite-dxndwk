@@ -86,7 +86,7 @@ input[type='number']::-webkit-outer-spin-button {
     transform: none;
   }
   &:hover {
-    background:rgba(0, 248, 185, 0.22);
+    background:rgba(4, 105, 187, 1);
     border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
     border-radius: calc(0.092592592vh * 0);
     cursor: pointer;
@@ -162,17 +162,17 @@ button:active {
     outline: none;
     color: #fff;
     background: radial-gradient(circle, rgba(255, 255, 255, 0.089) 0%, rgba(77, 79, 87, 0.177) 100%);
-    border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+    border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
     &:focus-within {
-      background:rgba(0, 248, 185, 0.22);
-      border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+      background:rgba(4, 105, 187, 1);
+      border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
     }
   }
 
   .inventory-control-button {
     font-size: 14px;
     color: #fff;
-    background:rgba(0, 248, 185, 0.22);
+    background:rgba(4, 105, 187, 1);
     border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
     border-radius: calc(0.092592592vh * 0);
     transition: 200ms;
@@ -183,7 +183,7 @@ button:active {
     font-weight: 500;
     &:hover {
       box-shadow: 0.0rem 0.0rem 20px 5px #31d4a9 inset !important;
-      border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+      border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
       border-radius: calc(0.092592592vh * 0);
     }
   }
@@ -227,7 +227,7 @@ button:active {
   fill: $textColor;
   &:hover {
     box-shadow: 0.0rem 0.0rem 20px 5px #31d4a9 inset !important;
-      border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+      border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
       border-radius: calc(0.092592592vh * 0);
     cursor: pointer;
   }
@@ -255,12 +255,12 @@ button:active {
   justify-content: center;
   align-items: center;
   fill: white;
-  background:rgba(0, 248, 185, 0.22);
+  background:rgba(4, 105, 187, 1);
     border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
     border-radius: calc(0.092592592vh * 0);
   &:hover {
     box-shadow: 0.0rem 0.0rem 20px 5px #31d4a9 inset !important;
-      border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+      border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
       border-radius: calc(0.092592592vh * 0);
     cursor: pointer;
   }
@@ -327,7 +327,7 @@ button:active {
   animation: zoomOutAndShake 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   &:hover {
     box-shadow: 0.0rem 0.0rem 50px 5px #31d4a896 inset;
-    border: calc(0.092592592vh * 1.4) solid rgba(0, 248, 185, 0.22);
+    border: calc(0.092592592vh * 1.4) solid rgba(4, 105, 187, 1);
     border-radius: 0.5rem;
   }
 }
